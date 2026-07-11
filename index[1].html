@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>West Friction | Fabricant de plaquettes de frein en Algérie</title><meta content="West Friction fabrique des plaquettes et garnitures de frein haute performance pour véhicules légers, poids lourds et remorques." name="description"/><meta content="index,follow" name="robots"/><link href="https://west-friction.github.io/west-friction/" rel="canonical"/><meta content="West Friction | Brake Pads Manufacturer" property="og:title"/><meta content="Manufacturer of brake pads and brake linings in Algeria." property="og:description"/><meta content="website" property="og:type"/><meta content="https://west-friction.github.io/west-friction/" property="og:url"/><script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"West Friction","url":"https://west-friction.github.io/west-friction/","description":"Brake pad manufacturer in Algeria"}</script></head><body><style>
+/* ==========================================
+   TON CODE CSS INTÉGRÉ
+   ========================================== */
+:root {
+  --bg: #030303;
+  --panel: #111;
+  --panel-soft: #171717;
+  --line: rgba(255, 255, 255, 0.13);
+  --gold: #f1ad20;
+  --gold-bright: #ffc34d;
+  --text: #f7f7f7;
+  --muted: #d8d8d8;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 75% 8%, rgba(255, 194, 64, 0.13), transparent 18rem),
+    linear-gradient(180deg, #020202 0%, #080808 42%, #020202 100%);
+  color: var(--text);
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+a { color: inherit; text-decoration: none; }
+img { display: block; max-width: 100%; }
+
+.site-header, main, .site-footer, .copyright {
+  width: min(1120px, calc(100% - 40px));
+  margin-inline: auto;
+}
+
+.site-header {
+  min-height: 92px; display: flex; align-items: center; gap: 28px; position: sticky; top: 0; z-index: 20;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.72));
+  backdrop-filter: blur(10px);
+}
+
+.brand { flex: 0 0 270px; }
+.brand img { width: 260px; }
+
+.main-nav { display: flex; align-items: center; justify-content: center; gap: 28px; flex: 1; }
+.main-nav a { position: relative; font-size: 14px; font-weight: 800; text-transform: uppercase; }
+.main-nav a.active, .main-nav a:hover { color: var(--gold-bright); }
+
+.main-nav a.active::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: -23px; height: 3px; background: var(--gold);
+}
+
+.call-btn, .primary-btn, .ghost-btn, .contact-form button, .whatsapp-btn {
+  height: 50px; display: inline-flex; align-items: center; justify-content: center; gap: 10px; border-radius: 6px; font-size: 14px; font-weight: 900; text-transform: uppercase;
+}
+
+.call-btn, .primary-btn, .contact-form button, .whatsapp-btn {
+  color: #070707; background: linear-gradient(180deg, #ffc956, #d89413); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+.call-btn { min-width: 126px; height: 44px; }
+
+.hero {
+  min-height: 430px; position: relative; display: grid; grid-template-columns: 1fr 540px; align-items: center; overflow: hidden; border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.hero::before {
+  content: ""; position: absolute; inset: 0 -8%;
+  background:
+    linear-gradient(90deg, #040404 0%, rgba(4, 4, 4, 0.95) 38%, rgba(4, 4, 4, 0.3) 100%),
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.035) 0 1px, transparent 1px 58px);
+  opacity: 0.8;
+}
+
+.hero-copy, .hero-brakes, .slider-dots { position: relative; z-index: 1; }
+
+.hero h1, .products-section h2, .about-section h2, .contact-form h2 {
+  margin: 0; font-family: "Barlow Condensed", Impact, sans-serif; font-weight: 800; line-height: 0.95; letter-spacing: 0; text-transform: uppercase;
+}
+
+.hero h1 { max-width: 520px; font-size: clamp(48px, 7vw, 78px); }
+.hero h1 span { display: block; color: var(--gold); }
+.hero p { max-width: 430px; margin: 28px 0; color: var(--muted); font-size: 22px; line-height: 1.55; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 16px; }
+.primary-btn, .ghost-btn { min-width: 250px; padding-inline: 22px; }
+
+.ghost-btn { color: var(--text); border: 1px solid rgba(241, 173, 32, 0.65); background: rgba(0, 0, 0, 0.4); }
+.hero-brakes { width: 100%; transform: translateX(22px); filter: drop-shadow(0 25px 35px rgba(0, 0, 0, 0.65)); }
+
+.slider-dots { position: absolute; left: 50%; bottom: 18px; display: flex; gap: 13px; }
+.slider-dots span { width: 11px; height: 11px; border-radius: 999px; background: rgba(255, 255, 255, 0.65); }
+.slider-dots .selected { width: 28px; background: var(--gold); }
+
+.info-strip {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; padding: 22px 28px; margin: 20px 0 26px; border: 1px solid var(--line); border-radius: 10px; background: linear-gradient(135deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02));
+}
+
+.info-strip article { display: flex; gap: 16px; align-items: center; }
+.info-icon { color: var(--gold); font-size: 42px; line-height: 1; }
+.info-strip strong, .eyebrow, .site-footer h4 { color: var(--gold); font-weight: 900; text-transform: uppercase; }
+.info-strip p, .about-copy p, .site-footer p, .site-footer a { color: var(--muted); line-height: 1.6; }
+
+.products-section { text-align: center; padding: 8px 0 20px; }
+.eyebrow { margin: 0 0 10px; font-size: 17px; }
+.products-section h2, .about-section h2, .contact-form h2 { font-size: clamp(34px, 4.2vw, 48px); }
+.gold-line, .short-line { width: 70px; height: 3px; margin: 16px auto 0; background: var(--gold); }
+.short-line { width: 58px; margin: 14px 0 18px; }
+.centered { margin-inline: auto; }
+
+.product-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 30px; }
+.product-card {
+  min-height: 282px; position: relative; overflow: hidden; display: flex; flex-direction: column; align-items: center; justify-content: space-between; padding: 26px 16px 0; border: 1px solid var(--line); border-radius: 8px; background: linear-gradient(180deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.015)), #0a0a0a;
+}
+
+.product-card::after { content: ""; position: absolute; left: 16px; right: 16px; bottom: 0; height: 4px; background: var(--gold); }
+.card-icon { color: var(--gold); font-size: 50px; line-height: 1; }
+
+.product-card h3 {
+  min-height: 58px; margin: 10px 0 8px; font-family: "Barlow Condensed", Impact, sans-serif; font-size: 28px; line-height: 1.05; text-transform: uppercase;
+}
+
+.product-card img { width: 100%; height: 112px; object-fit: contain; object-position: center bottom; }
+
+.about-section {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 0; align-items: stretch; overflow: hidden; margin: 40px 0 16px; border-radius: 8px; background: #070707;
+}
+
+.about-section > img { width: 100%; height: 100%; min-height: 330px; object-fit: cover; }
+.about-copy { padding: 34px 40px; }
+.about-copy p { margin: 0 0 10px; font-size: 17px; }
+
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 28px; }
+.stats div { min-width: 0; border-left: 1px solid rgba(255, 255, 255, 0.12); padding-left: 16px; }
+.stats strong { display: block; color: var(--gold); font-family: "Barlow Condensed", Impact, sans-serif; font-size: 33px; text-transform: uppercase; }
+.stats span { display: block; font-size: 12px; font-weight: 800; text-transform: uppercase; }
+
+.contact-section {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 26px; padding: 18px; margin-bottom: 30px; border: 1px solid var(--line); border-radius: 10px; background: linear-gradient(135deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02));
+}
+
+.contact-form { text-align: center; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+
+input, select, textarea {
+  width: 100%; min-height: 45px; margin-bottom: 12px; padding: 0 16px; color: var(--text); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 4px; background: rgba(0, 0, 0, 0.35); font: inherit;
+}
+
+textarea { padding-top: 14px; resize: vertical; }
+.contact-form button { min-width: 270px; border: 0; cursor: pointer; }
+.map-panel { display: flex; flex-direction: column; gap: 14px; }
+
+.map-image {
+  min-height: 280px; position: relative; overflow: hidden; border: 1px solid rgba(241, 173, 32, 0.55); border-radius: 7px;
+}
+.map-image img { width: 100%; height: 100%; min-height: 280px; object-fit: cover; }
+
+.map-label {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: 16px; color: var(--gold-bright); font-size: 23px; line-height: 1.25;
+}
+.map-label span { font-size: 72px; }
+.whatsapp-btn { width: 100%; }
+
+.site-footer {
+  display: grid; grid-template-columns: 1.35fr 1fr 1fr 1.25fr; gap: 46px; padding: 26px 0 24px; border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+.footer-brand img { width: 230px; }
+.site-footer h4 { margin: 0 0 16px; }
+.site-footer a { display: block; margin-bottom: 8px; }
+.socials { display: flex; gap: 12px; margin-top: 10px; }
+
+.socials span {
+  width: 28px; height: 28px; display: inline-flex; align-items: center; justify-content: center; border-radius: 50%; background: #1d5ebd; font-size: 12px; font-weight: 900;
+}
+
+.copyright {
+  display: flex; justify-content: center; gap: 28%; padding: 14px 0 22px; border-top: 1px solid rgba(255, 255, 255, 0.08); color: #bdbdbd; font-size: 14px;
+}
+
+@media (max-width: 980px) {
+  .site-header { min-height: auto; padding: 14px 0; flex-wrap: wrap; }
+  .brand { flex-basis: auto; }
+  .main-nav { order: 3; width: 100%; justify-content: flex-start; gap: 18px; overflow-x: auto; padding-bottom: 8px; }
+  .main-nav a.active::after { bottom: -8px; }
+  .call-btn { margin-left: auto; }
+  .hero { grid-template-columns: 1fr; padding-top: 34px; }
+  .hero-brakes { max-width: 640px; margin: 0 auto; transform: none; }
+  .info-strip, .product-grid, .stats, .site-footer { grid-template-columns: repeat(2, 1fr); }
+  .about-section, .contact-section { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 620px) {
+  .site-header, main, .site-footer, .copyright { width: min(100% - 24px, 1120px); }
+  .hero h1 { font-size: 48px; }
+  .hero p { font-size: 18px; }
+  .primary-btn, .ghost-btn, .contact-form button { width: 100%; min-width: 0; }
+  .info-strip, .product-grid, .form-row, .stats, .site-footer { grid-template-columns: 1fr; }
+  .product-card { min-height: 260px; }
+  .about-copy { padding: 28px 22px; }
+  .contact-section { padding: 14px; }
+  .copyright { display: block; text-align: center; }
+}
+</style>
+<header class="site-header">
+<a class="brand" href="#">
+<h2 style="color:#f1ad20; font-family:'Arial Black', sans-serif; margin:0; letter-spacing:1px;">WEST FRICTION</h2>
+</a>
+<nav aria-label="Navigation principale" class="main-nav">
+<a class="active" href="#">Accueil</a>
+<a href="#apropos">À propos</a>
+<a href="#produits">Nos produits</a>
+<a href="#contact">Contact</a>
+</nav>
+<a aria-label="Appeler West Friction" class="call-btn" href="tel:+213783285419">
+<span>☎</span> Appeler
+  </a>
+</header>
+<main>
+<section class="hero" id="accueil">
+<div class="hero-copy">
+<h1>La performance <span>en toute sécurité</span></h1>
+<p>Spécialiste des systèmes de freinage pour véhicules légers et poids lourds.</p>
+<div class="hero-actions">
+<a class="primary-btn" href="#produits">Découvrir nos produits <span>›</span></a>
+<a class="ghost-btn" href="#contact">Nous contacter <span>◉</span></a>
+</div>
+</div>
+<img alt="Disque et étrier de frein haute performance" class="hero-brakes" src="https://i.imgur.com/RLT2p8v.png"/>
+<div aria-hidden="true" class="slider-dots">
+<span class="selected"></span><span></span><span></span>
+</div>
+</section>
+<section aria-label="Informations rapides" class="info-strip">
+<article>
+<span class="info-icon">●</span>
+<div><strong>Où nous trouver ?</strong><p>Zone d’activité Bir El Djir,<br/>Oran N°57.58.59</p></div>
+</article>
+<article>
+<span class="info-icon">◷</span>
+<div><strong>Horaires</strong><p>Samedi - mercredi<br/>08:00 - 17:00</p></div>
+</article>
+<article>
+<span class="info-icon">☎</span>
+<div><strong>Téléphone</strong><p>+213 783 28 54 19</p></div>
+</article>
+<article>
+<span class="info-icon">✉</span>
+<div><strong>E-mail</strong><p>safma01@hotmail.com<br/></p></div>
+</article>
+</section>
+<section class="products-section" id="produits">
+<p class="eyebrow">Nos produits</p>
+<h2>Notre savoir-faire à votre service</h2>
+<div class="gold-line"></div>
+<div class="product-grid">
+<article class="product-card">
+<div class="card-icon">▱</div>
+<h3>"Plaquettes de frein lourd"</h3>
+<img "="" alt="Plaquettes de frein lourd" src="https://i.imgur.com/ODFM0BG.png"/>
+</article>
+<article class="product-card">
+<div class="card-icon">▰</div>
+<h3>"Plaquettes de frein leger"</h3>
+<img alt="Plaquettes de frein" src="https://i.imgur.com/ZRuakWt.png "/>
+</article>
+<article class="product-card">
+<div class="card-icon">◜</div>
+<h3>Garnitures de frein Lourds</h3>
+<img alt="Mâchoires de frein" src="https://i.imgur.com/ZmRG45T.png"/>
+</article>
+<article class="product-card">
+<div class="card-icon">◝</div>
+<h3>Garniture de frein Leger</h3>
+<img alt="garniture de frein leger" src="https://i.imgur.com/VsDTWwX.png"/>
+</article>
+</div>
+</section>
+<section class="about-section" id="apropos">
+<img alt="Bâtiment West Friction" src="https://i.imgur.com/XQgi0qR.png"/>
+<div class="about-copy">
+<p class="eyebrow">À propos de nous</p>
+<h2>Plus de 40 ans d’expérience</h2>
+<div class="short-line"></div>
+<p>WEST FRICTION est une entreprise spécialisée dans la fabrication de plaquettes de frein et de garnitures de frein. Notre engagement : qualité, sécurité et satisfaction client.</p>
+<p>Nous accompagnons les professionnels et les particuliers avec des produits fiables pour véhicules légers et poids lourds.</p>
+<div class="stats">
+<div><strong>40+</strong><span>Ans d’expérience</span></div>
+<div><strong>1000+</strong><span>Clients satisfaits</span></div>
+<div><strong>Qualité</strong><span>Produits garantis</span></div>
+<div><strong>Service</strong><span>Rapide &amp; professionnel</span></div>
+</div>
+</div>
+</section>
+<section class="contact-section" id="contact">
+<form action="https://formspree.io/f/meeyjero" class="contact-form" method="POST" name="contact">
+<p class="eyebrow">Contactez-nous</p>
+<h2>Remplissez le formulaire pour nous contacter</h2>
+<div class="short-line centered"></div>
+<div class="form-row">
+<input name="societe" placeholder="Nom de la société *" required="" type="text"/>
+<input name="nom" placeholder="Nom et prénom *" required="" type="text"/>
+</div>
+<div class="form-row">
+<input name="telephone" placeholder="Téléphone *" required="" type="tel"/>
+<input name="email" placeholder="E-mail *" required="" type="email"/>
+</div>
+<select name="sujet" required="">
+<option>Sujet *</option>
+<option>Demande de devis</option>
+<option>Disponibilité produit</option>
+<option>Garnitures de frein</option>
+</select>
+<textarea name="message" placeholder="Votre message *" required="" rows="4"></textarea>
+<button type="submit">➤ Envoyer le message</button>
+</form>
+<aside class="map-panel">
+<div class="map-image">
+<img alt="Carte de localisation à Oran" src="https://i.imgur.com/9xT1VIG.png"/>
+<div class="map-label"><span>●</span><strong>Zone d’activité<br/>Bir El Djir, Oran<br/>N°57.58.59</strong></div>
+</div>
+<a class="whatsapp-btn" href="https://wa.me/213552725460">◉ Contactez-nous sur WhatsApp</a>
+</aside>
+</section>
+</main>
+<footer class="site-footer">
+<div class="footer-brand">
+<h3 style="color:#f1ad20; font-family:'Arial Black', sans-serif; margin:0 0 10px;">WEST FRICTION</h3>
+<p>Spécialiste des systèmes de freinage pour véhicules légers et poids lourds.</p>
+<div class="socials"><span>f</span><span>◎</span><span>▶</span><span>in</span></div>
+</div>
+<div>
+<h4>Liens rapides</h4>
+<a href="#">Accueil</a>
+<a href="#apropos">À propos</a>
+<a href="#produits">Nos produits</a>
+<a href="#contact">Contact</a>
+</div>
+<div>
+<h4>Nos produits</h4>
+<a href="#produits">Plaquettes de frein Leger</a>
+<a href="#produits">Plaquettes de frein Lourd</a>
+<a href="#produits">Garniture de frein Leger</a>
+<a href="#produits">Garniture de frein Lourd</a>
+</div>
+<div>
+<h4>Contact</h4>
+<p>● Zone d’activité Bir El Djir,<br/>Oran N°57.58.59</p>
+<p>☎ +213 783 28 54 19</p>
+<p>✉ safma01@hotmail.com</p>
+</div>
+</footer>
+<div class="copyright">© 2026 WEST FRICTION. Tous droits réservés. <span>Conçu avec passion ✦</span></div>
+
+<script>
+const form=document.querySelector(".contact-form");
+if(form){
+form.addEventListener("submit",async function(e){
+e.preventDefault();
+const data=new FormData(form);
+try{
+const r=await fetch(form.action,{method:"POST",body:data,headers:{"Accept":"application/json"}});
+if(r.ok){alert("✅ Votre demande a été envoyée avec succès. Nous vous répondrons dans les plus brefs délais.");form.reset();}
+else{alert("❌ Une erreur est survenue. Veuillez réessayer.");}
+}catch(err){alert("❌ Impossible d'envoyer la demande. Vérifiez votre connexion Internet.");}
+});
+}
+</script>
+
+</body></html>
